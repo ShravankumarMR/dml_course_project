@@ -10,5 +10,5 @@ fastapi
 uvicorn
 streamlit
 pytest
-evidently
+evidently==0.4.13
 joblib
