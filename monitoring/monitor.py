@@ -24,7 +24,7 @@ def generate_monitoring_report():
     os.makedirs("monitoring/reports", exist_ok=True)
     report.save_html("monitoring/reports/drift_report.html")
     
-    print("Report saved to monitoring/reports/drift_report.html")
+    print("✅ Report saved to monitoring/reports/drift_report.html")
 
 if __name__ == "__main__":
     generate_monitoring_report()
